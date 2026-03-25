@@ -42,6 +42,14 @@ section.main-content-area {
             }
         }
 
+        &.bottom {
+            font-size: 9px;
+
+            a {
+                text-transform: lowercase;
+            }
+        }
+
         img {
             scale: 65%;
         }
@@ -99,9 +107,44 @@ section.main-content-area {
 
         .right-side {
             width: 65%;
-            padding: 10px;
+            padding: 20px;
             height: fit-content;
+
+            img {
+                margin-bottom: 0;
+                width: 100%;
+                height: auto;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+            div.more {
+                display: flex;
+                justify-content: flex-start;
+
+                a {
+                    color: rgba(195,16,47,0.96);
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 9px;
+                    font-weight: bold;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
         }
     }
 
+}
+
+section.footer {
+    background-color: #60663e;
+    text-align: center;
+    color: white;
+    padding: 8px 0;
+    font-size: 9px;
 }
