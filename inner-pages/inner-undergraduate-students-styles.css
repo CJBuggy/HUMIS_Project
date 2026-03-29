@@ -23,7 +23,6 @@ section.main-content-area {
     justify-content: space-between;
 
     .secondary {
-        /*border: 1px solid black;*/
         min-height: 20px;
         padding-right: 20px;
         font-size: 10px;
@@ -72,7 +71,6 @@ section.main-content-area {
     }
 
     section.box {
-        /*border: 1px solid black;*/
         min-height: 550px;
         display: flex;
         justify-content: space-between;
